@@ -9,6 +9,8 @@ import Neurodiversity from './sections/Neurodiversity'
 import HowItHelps from './sections/HowItHelps'
 import Features from './sections/Features'
 import GetExtension from './sections/GetExtension'
+import Install from './sections/Install'
+
 
 function App() {
   const homeRef = useRef(null)
@@ -17,6 +19,7 @@ function App() {
   const helpsRef = useRef(null)
   const featuresRef = useRef(null)
   const getExtRef = useRef(null)
+  const installRef = useRef(null)
 
   return (
     <>
@@ -28,6 +31,7 @@ function App() {
           helpsRef,
           featuresRef,
           getExtRef,
+          installRef,
         }}
       />
 
@@ -39,6 +43,7 @@ function App() {
         <HowItHelps sectionRef={helpsRef} />
         <Features sectionRef={featuresRef} />
         <GetExtension sectionRef={getExtRef} />
+        <Install sectionRef={installRef} />
       </div>
     </>
   )

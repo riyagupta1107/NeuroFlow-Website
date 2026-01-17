@@ -36,6 +36,7 @@ function Navbar({ sections }) {
           <button onClick={() => scrollToSection(sections.neuroRef)} className={navItemClass}>Neurodiversity</button>
           <button onClick={() => scrollToSection(sections.helpsRef)} className={navItemClass}>How It Helps</button>
           <button onClick={() => scrollToSection(sections.featuresRef)} className={navItemClass}>Features</button>
+          <button onClick={() => scrollToSection(sections.featuresRef)} className={navItemClass}>Installation</button>
 
         </div>
       </div>
